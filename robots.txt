@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://khu-syssec-lab.github.io/sitemap.xml
+Sitemap: https://khu-syssec.github.io/sitemap.xml
