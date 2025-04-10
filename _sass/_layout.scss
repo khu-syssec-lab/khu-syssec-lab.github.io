@@ -1,0 +1,139 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+// // Profile
+// .profile {
+//   img {
+//     width: 100%;
+//   }
+// }
+
+
+.profile {
+  img {
+    width: 100%;
+  }
+  background-color: rgba(255, 255, 255, 0.9); /* 살짝 투명한 배경 */
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  z-index: -1; /* `.profile` 뒤로 보냄 */
+  position: relative;
+}
+
+
+
+// /* 일반적인 마크다운 리스트의 공백 없애기 */
+// ul {
+//   margin: 0;
+//   padding-left: 1rem; /* 기본 들여쓰기 최소화 */
+// }
+
+// /* 불필요한 마진/패딩 제거 */
+// ul:not(.task-list) {
+//   margin: 0 !important;
+//   padding-left: 0 !important;
+// }
+
+// /* task-list의 불필요한 들여쓰기 없애기 */
+// ul.task-list {
+//   list-style-type: none;
+//   padding-left: 0;
+// }
+
+// /* 리스트 항목 간격 최소화 */
+// ul li {
+//   margin-top: 0px;  /* 항목 위 간격 */
+//   margin-bottom: 0px; /* 항목 아래 간격 */
+//   margin: 0;
+//   padding: 0px 0; /* 간격 최소화 */
+// }
+
+// ul li + p,
+// ol li + p, ul, ol {
+//   margin-top: 0;
+//   margin-bottom: 0; /* 항목 아래 간격 */
+// }
+
+/* 특정 div 내부에서 리스트 공백 제거 */
+// .clearfix ul, 
+// .clearfix ul li p {
+//   margin: 0;
+//   padding: 0;
+// }
+
+.clearfix > ul > li > p {
+  margin-bottom: 0 !important;
+}
+
+// TODO: redefine content layout.
+
+
+.post-title {
+  display: flex;
+  align-items: center;
+  font-family: 'Playfair Display', serif; /* 원하는 폰트 지정 */
+  font-weight: 700; /* 굵게 */
+  font-size: 2.2rem; /* 크기 조정 */
+  color: #333; /* 글자 색 */
+
+}
+
+.lab-logo {
+  width: 50px;  /* Adjust size as needed */
+  height: 50px;
+  margin-right: 10px;  /* Space between logo and text */
+}
+
+.lab-title {
+  display: inline-block; /* Ensures the title stays inline with the logo */
+}
+
+// .container {
+//   margin-left: 40px auto;  /* Adjust this value to increase the space */
+// }
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.

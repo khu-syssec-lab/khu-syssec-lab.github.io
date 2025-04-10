@@ -1,0 +1,15 @@
+<!-- Publication Tabs -->
+<div class="publication-tabs">
+  <ul class="nav-tabs">
+    <li class="active" onclick="showTab('all')">All</li>
+    <li onclick="showTab('international')">International</li>
+    <li onclick="showTab('domestic')">Domestic</li>
+  </ul>
+</div>
+
+<!-- Publications List (모든 논문을 출력) -->
+<div class="publications">
+  <ol class="bibliography">
+    {% bibliography %}
+  </ol>
+</div>
