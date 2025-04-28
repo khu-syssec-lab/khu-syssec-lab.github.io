@@ -18,6 +18,13 @@ Anonymized
 
 ---
 
+**FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation**  
+Suhwan Jeong, Beomseok Oh, Kwangmin Kim, Insu Yun, Yongdae Kim, and **CheolJun Park**  
+*ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec'25)*  
+(To appear)
+
+---
+
 **Automated Exploit Generation for Cellular Security Using Fake UE**  
 Mincheol Son, Kwangmin Kim, Suhwan Jeong, Jiwoo Suh, **CheolJun Park**, and Yongdae Kim  
 *MobiSec 2024*  
