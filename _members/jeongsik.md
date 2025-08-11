@@ -2,10 +2,10 @@
 layout: profiles
 inline: false
 group: Undergraduate students
-group_rank: 4
+group_rank: 10
 team_frontpage: true
 
-title: Jeongsik Park 
+title: Jeongsik Park (🪖~2027)
 description: Profile of BS Jeongsik Park, Student Researcher at the KHU-SysSec.
 lastname: jeongsik
 publications: 'author^=*jeongsik'

@@ -13,15 +13,36 @@ nav_order: 4
 
 --- 
 
-**Paper A, B, C in progress**  
+**Paper A, B in progress**  
 Anonymized 
+
+---
+
+**CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks**  
+Mincheol Son, Kwangmin Kim, Beomseok Oh, **CheolJun Park**, and Yongdae Kim  
+*The ACM Conference on Computer and Communications Security (ACM CCS'25)*  
+(Accepted)
+
+---
+
+**Denial-of-Service Risks in 5G Devices: Empirical Analysis on Connection Restriction Mechanisms**  
+Beomseok Oh, Mincheol Son, Kwangmin Kim, Jiho Lee, Duckwoo Kim, Taekkyung Oh, **CheolJun Park**, and Yongdae Kim  
+*The 26th World Conference on Information Security Applications (WISA 25)*  
+(Accepted)
+
+---
+
+**LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers**  
+Tuan Dinh Hoang, Taekkyung Oh, **CheolJun Park**, Insu Yun, and Yongdae Kim  
+*USENIX Security Symposium (USENIX Security’25)*   
+(Accepted)
 
 ---
 
 **FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation**  
 Suhwan Jeong, Beomseok Oh, Kwangmin Kim, Insu Yun, Yongdae Kim, and **CheolJun Park**  
 *ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec'25)*  
-(To appear)
+[Paper](https://dl.acm.org/doi/pdf/10.1145/3734477.3734726)
 
 ---
 
