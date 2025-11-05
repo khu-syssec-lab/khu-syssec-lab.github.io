@@ -13,36 +13,39 @@ nav_order: 4
 
 --- 
 
-**Paper A, B in progress**  
-Anonymized 
+**OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands**   
+**CheolJun Park**, Marc Egli, BeomSeok Oh, Tuan Dinh Hoang, Suhwan Jeong, Martin Crettol, Insu Yun, Mathias Payer, and Yongdae Kim   
+*Annual Computer Security Applications Conference (ACSAC'25)*   
+(Accepted)
 
 ---
 
 **CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks**  
 Mincheol Son, Kwangmin Kim, Beomseok Oh, **CheolJun Park**, and Yongdae Kim  
-*The ACM Conference on Computer and Communications Security (ACM CCS'25)*  
-(Accepted)
+*The ACM Conference on Computer and Communications Security (ACM CCS'25)*   
+(Distinguished Paper Awards)  
+[Paper] · [Code](https://github.com/SysSec-KAIST/CITesting) · [News](https://www.etnews.com/20251031000168)
 
 ---
 
 **Denial-of-Service Risks in 5G Devices: Empirical Analysis on Connection Restriction Mechanisms**  
 Beomseok Oh, Mincheol Son, Kwangmin Kim, Jiho Lee, Duckwoo Kim, Taekkyung Oh, **CheolJun Park**, and Yongdae Kim  
 *The 26th World Conference on Information Security Applications (WISA 25)*  
-(Accepted)
+
 
 ---
 
 **LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers**  
 Tuan Dinh Hoang, Taekkyung Oh, **CheolJun Park**, Insu Yun, and Yongdae Kim  
 *USENIX Security Symposium (USENIX Security’25)*   
-(Accepted)
+[Paper](https://www.usenix.org/system/files/usenixsecurity25-hoang.pdf) · [Code](https://github.com/SysSec-KAIST/LLFuzz) · [News](https://www.dailysecu.com/news/articleView.html?idxno=168289)
 
 ---
 
 **FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation**  
 Suhwan Jeong, Beomseok Oh, Kwangmin Kim, Insu Yun, Yongdae Kim, and **CheolJun Park**  
 *ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec'25)*  
-[Paper](https://dl.acm.org/doi/pdf/10.1145/3734477.3734726)
+[Paper](https://dl.acm.org/doi/pdf/10.1145/3734477.3734726) · [Code](https://github.com/1nteger-c/FirmState)
 
 ---
 

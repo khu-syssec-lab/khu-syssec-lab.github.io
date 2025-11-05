@@ -5,6 +5,6 @@ inline: true
 title: "Discrete Structure (CSE201)"
 university: KHU
 semester: Spring 2025
-past: false
+past: true
 external_page: https://khcanvas.khu.ac.kr/courses/72592
 ---

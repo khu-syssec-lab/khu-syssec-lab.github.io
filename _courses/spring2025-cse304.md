@@ -5,6 +5,6 @@ inline: true
 title: "Algorithm (CSE304)"
 university: KHU
 semester: Spring 2025
-past: false
+past: true
 external_page: https://khcanvas.khu.ac.kr/courses/72606
 ---
