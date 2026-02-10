@@ -1,8 +1,8 @@
 ---
 layout: profiles
 inline: false
-group: Undergraduate students
-group_rank: 6
+group: Master students
+group_rank: 11
 team_frontpage: true
 
 title: Jeongmin Choi

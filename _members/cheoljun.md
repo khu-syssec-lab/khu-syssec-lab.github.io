@@ -23,7 +23,7 @@ profile:
     twitter: cheoljun_p
     linkedin: cheoljunp
     website: https://cheoljunp.github.io
-    cv: /assets/cv/cv-cheoljun-240703.pdf
+    cv: /assets/cv/cv-cheoljun-260210.pdf
     # orcid: 0000-0002-9324-8894
     scholar: cKvQd74AAAAJ
     address: > 

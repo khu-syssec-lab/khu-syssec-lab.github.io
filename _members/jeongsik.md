@@ -2,7 +2,7 @@
 layout: profiles
 inline: false
 group: Undergraduate students
-group_rank: 10
+group_rank: 200
 team_frontpage: true
 
 title: Jeongsik Park (🪖~2027)

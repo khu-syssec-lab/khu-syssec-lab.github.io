@@ -1,9 +1,9 @@
 ---
 layout: profiles
 inline: false
-group: Undergraduate students
+group: Alumni
 group_rank: 4
-team_frontpage: true
+team_frontpage: false
 
 title: Yujin Shin 
 description: Profile of BS Yujin Shin, Student Researcher at the KHU-SysSec.

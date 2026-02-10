@@ -2,7 +2,7 @@
 layout: profiles
 inline: false
 group: Undergraduate students
-group_rank: 5
+group_rank: 103
 team_frontpage: true
 
 title: Minju Byeon

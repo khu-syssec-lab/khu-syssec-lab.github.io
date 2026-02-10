@@ -2,7 +2,7 @@
 layout: profiles
 inline: false
 group: Undergraduate students
-group_rank: 4
+group_rank: 101
 team_frontpage: true
 
 title: DongWon Lee

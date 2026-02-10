@@ -2,7 +2,7 @@
 layout: profiles
 inline: false
 group: Undergraduate students
-group_rank: 7
+group_rank: 105
 team_frontpage: true
 
 title: Hye-in Jeong

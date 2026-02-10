@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: profiles
 inline: false
 group: Master students
@@ -29,4 +29,4 @@ profile:
 (Co-advised by Prof. Daehee Jang, Pwn Lab @ KHU)
 
 I am a M.S. Candidate in Computer Engineering, specializing in Convergence Security at KyungHee University. I joined the KHU-SysSec Lab lead by Prof. CheolJun Park as a Student Researcher in December 2024.
-My Masters research focuses on Space/Satellite Security with a particular interest in Satellite communications and Satellite internet. 
+My Masters research focuses on Space/Satellite Security with a particular interest in Satellite communications and Satellite internet.  -->

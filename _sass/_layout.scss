@@ -49,6 +49,18 @@ body.sticky-bottom-footer {
   z-index: 1;
 }
 
+// Team page section headers
+.team-group {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 0.35rem;
+}
+
 hr {
   z-index: -1; /* `.profile` 뒤로 보냄 */
   position: relative;

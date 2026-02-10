@@ -16,7 +16,7 @@ nav_order: 4
 **OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands**   
 **CheolJun Park**, Marc Egli, BeomSeok Oh, Tuan Dinh Hoang, Suhwan Jeong, Martin Crettol, Insu Yun, Mathias Payer, and Yongdae Kim   
 *Annual Computer Security Applications Conference (ACSAC'25)*   
-(Accepted)
+[Paper](/assets/pdf/25-acsac-otabase.pdf)· [Code](https://github.com/OTABase/OTABase)
 
 ---
 
@@ -24,7 +24,7 @@ nav_order: 4
 Mincheol Son, Kwangmin Kim, Beomseok Oh, **CheolJun Park**, and Yongdae Kim  
 *The ACM Conference on Computer and Communications Security (ACM CCS'25)*   
 (Distinguished Paper Awards)  
-[Paper] · [Code](https://github.com/SysSec-KAIST/CITesting) · [News](https://www.etnews.com/20251031000168)
+[Paper](/assets/pdf/25-ccs-citesting.pdf) · [Code](https://github.com/SysSec-KAIST/CITesting) · [News](https://www.etnews.com/20251031000168)
 
 ---
 
@@ -32,13 +32,12 @@ Mincheol Son, Kwangmin Kim, Beomseok Oh, **CheolJun Park**, and Yongdae Kim
 Beomseok Oh, Mincheol Son, Kwangmin Kim, Jiho Lee, Duckwoo Kim, Taekkyung Oh, **CheolJun Park**, and Yongdae Kim  
 *The 26th World Conference on Information Security Applications (WISA 25)*  
 
-
 ---
 
 **LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers**  
 Tuan Dinh Hoang, Taekkyung Oh, **CheolJun Park**, Insu Yun, and Yongdae Kim  
 *USENIX Security Symposium (USENIX Security’25)*   
-[Paper](https://www.usenix.org/system/files/usenixsecurity25-hoang.pdf) · [Code](https://github.com/SysSec-KAIST/LLFuzz) · [News](https://www.dailysecu.com/news/articleView.html?idxno=168289)
+[Paper](/assets/pdf/25-usenix-llfuzz.pdf) · [Code](https://github.com/SysSec-KAIST/LLFuzz) · [News](https://www.dailysecu.com/news/articleView.html?idxno=168289)
 
 ---
 

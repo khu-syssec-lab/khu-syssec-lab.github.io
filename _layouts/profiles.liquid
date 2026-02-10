@@ -35,11 +35,17 @@ layout: default
       </div>
     {% endif %} {% endcomment %}
   <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
-            <img class="img-fluid{% assign ext = page.profile.image | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
-          {% if page.profile.href %}</a>{% endif %}
+        {% assign requested_image = page.profile.image | default: 'blank-profile.png' %}
+        {% assign requested_path = 'assets/img/' | append: requested_image %}
+        {% capture profile_image_exists %}{% file_exists {{ requested_path }} %}{% endcapture %}
+        {% if profile_image_exists == 'true' %}
+          {% assign profile_image_file = requested_image %}
+        {% else %}
+          {% assign profile_image_file = 'blank-profile.png' %}
         {% endif %}
+        {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+          <img class="img-fluid{% assign ext = profile_image_file | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ profile_image_file | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
+        {% if page.profile.href %}</a>{% endif %}
         <div class="address">
           <p>
             {% comment %} {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}

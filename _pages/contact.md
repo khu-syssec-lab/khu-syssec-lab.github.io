@@ -70,7 +70,7 @@ nav_rank: 11
 **제출 내용:**  
 - **Curriculum Vitae (CV)** 
 - **관심 연구주제, future plan, purpose**  
-- **희망 지원 시기 (예: 25'여름방학 학부연구, 26년도 봄학기 석사 등)**  
+- **희망 지원 시기 (예: 26'여름방학 학부연구, 27년도 봄학기 석사 등)**  
 - **Transcript (석/박사 컨택시)**
 
 **문의 이메일:** [cheoljunp@khu.ac.kr](mailto:cheoljunp@khu.ac.kr)  

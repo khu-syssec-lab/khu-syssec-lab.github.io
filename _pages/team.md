@@ -7,9 +7,21 @@ nav: true
 nav_rank: 2
 ---
 
-{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
-{% for group in groups %}
-## {{ group }}
+{% assign groups = site.members | map: "group" | uniq %}
+{% assign preferred_groups = "Faculty,Ph.D students,Master students,Undergraduate students,Alumni" | split: "," %}
+{% assign ordered_groups = "" | split: "" %}
+{% for g in preferred_groups %}
+  {% if groups contains g %}
+    {% assign ordered_groups = ordered_groups | push: g %}
+  {% endif %}
+{% endfor %}
+{% for g in groups %}
+  {% unless ordered_groups contains g %}
+    {% assign ordered_groups = ordered_groups | push: g %}
+  {% endunless %}
+{% endfor %}
+{% for group in ordered_groups %}
+<h2 class="team-group">{{ group }}</h2>
 
     {% assign members = site.members | sort: "order" | where: "group", group %}
     {% for member in members %}
@@ -59,6 +71,4 @@ nav_rank: 2
 </p>
     {% endfor %}
 {% endfor %}
-
-
 
