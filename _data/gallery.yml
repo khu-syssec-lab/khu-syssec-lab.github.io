@@ -1,0 +1,44 @@
+- image: 1.jpg
+  title: "Lab Seminar Session"
+  date: "2026-02-01"
+  description: "Weekly seminar discussion on wireless protocol security."
+
+- image: 2.jpg
+  title: "Hands-on SDR Experiment"
+  date: "2026-01-20"
+  description: "Live testing setup for signal capture and analysis."
+
+- image: 3.jpg
+  title: "Team Meeting"
+  date: "2026-01-10"
+  description: "Research planning and milestone review."
+
+- image: 4.jpg
+  title: "Student Research Presentation"
+  date: "2025-12-18"
+  description: "Undergraduate researchers presenting project updates."
+
+- image: 5.jpg
+  title: "System Security Workshop"
+  date: "2025-12-05"
+  description: "Internal workshop on protocol fuzzing and tooling."
+
+- image: 6.jpg
+  title: "Lab Networking Day"
+  date: "2025-11-28"
+  description: "Collaborative exchange with external researchers."
+
+- image: 7.jpg
+  title: "Poster Preparation"
+  date: "2025-11-12"
+  description: "Preparing technical posters for conference submission."
+
+- image: 10.jpg
+  title: "Campus Event Booth"
+  date: "2025-10-30"
+  description: "Outreach event introducing the lab's research areas."
+
+- image: 11.jpg
+  title: "Year-end Lab Gathering"
+  date: "2025-10-10"
+  description: "Closing session and future project brainstorming."

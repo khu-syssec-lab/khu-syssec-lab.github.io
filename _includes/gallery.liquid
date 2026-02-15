@@ -1,0 +1,21 @@
+{% assign sorted_gallery = site.data.gallery | sort: "date" | reverse %}
+{% assign gallery_limit = include.limit | default: sorted_gallery.size %}
+
+<div class="lab-gallery-grid">
+  {% for item in sorted_gallery limit: gallery_limit %}
+    <figure class="lab-gallery-card">
+      <a href="{{ '/assets/img/' | append: item.image | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/assets/img/' | append: item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" />
+      </a>
+      <figcaption>
+        <div class="lab-gallery-title">{{ item.title }}</div>
+        {% if include.show_date != false %}
+          <div class="lab-gallery-date">{{ item.date | date: '%b %d, %Y' }}</div>
+        {% endif %}
+        {% if include.show_description != false and item.description %}
+          <div class="lab-gallery-description">{{ item.description }}</div>
+        {% endif %}
+      </figcaption>
+    </figure>
+  {% endfor %}
+</div>
