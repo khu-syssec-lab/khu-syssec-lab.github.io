@@ -6,6 +6,9 @@ description:
 nav: true
 nav_order: 2
 ---
+
+{% include research_overview.liquid %}
+
 <!-- 
 ## Cellular Network Security
 
@@ -165,5 +168,4 @@ These include:
 - **Security analysis of low-power wireless systems**
 - **Sensor-based attacks and signal-level interference**
 - **Early-stage investigations into physical-layer manipulation, side channels, and wireless privacy threats**
-
 

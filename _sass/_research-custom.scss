@@ -1,0 +1,123 @@
+.research-overview,
+.funded-projects {
+  margin: 0.4rem 0 2.2rem;
+}
+
+.research-overview-head {
+  margin-bottom: 0.85rem;
+}
+
+.research-overview-head h2 {
+  margin: 0;
+  font-size: 1.24rem;
+  font-weight: 650;
+}
+
+.research-overview-head p {
+  margin: 0.25rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.research-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
+}
+
+.research-focus-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.9rem;
+  background: var(--global-card-bg-color);
+}
+
+.research-focus-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+.research-focus-card p {
+  margin: 0.45rem 0 0;
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  line-height: 1.48;
+}
+
+.research-focus-keywords {
+  margin-top: 0.65rem;
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.funded-project-list {
+  display: grid;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.funded-project-subhead {
+  margin: 1rem 0 0.45rem;
+  color: var(--global-text-color);
+  font-size: 0.96rem;
+  font-weight: 650;
+}
+
+.funded-project-subhead-past {
+  margin-top: 1.3rem;
+}
+
+.funded-project-list-past .funded-project-card {
+  opacity: 0.82;
+}
+
+.funded-project-card {
+  display: grid;
+  grid-template-columns: 7.2rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.funded-project-period {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.funded-project-main h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.funded-project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.84rem;
+}
+
+.funded-project-meta span + span::before {
+  content: "/";
+  margin-right: 0.45rem;
+  color: var(--global-divider-color);
+}
+
+.funded-project-main p {
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 576px) {
+  .funded-project-card {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}

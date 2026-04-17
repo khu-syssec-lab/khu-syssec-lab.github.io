@@ -145,6 +145,8 @@ Previously, I worked as intern at Qualcomm product security initiative (QPSI) in
 
 ## Service
 
-- **Review**: IEEE Transactions on Information Forensics and Security, IEEE Transactions on Privacy, NDSS AEC, CCS AEC, Journal of Information Processing Systems, CISC
-- **External reviewers**: NDSS, USENIX, ACM CCS, IEEE S&P, ACM WiSec, ACM ASICCS, ACM WOOTS
-- KIISC(정보보호학회) 이사(2025)
+- **Program Committee**: ASIACCS 2026, ASIACCS 2027, ACSAC 2026, KIISC CISC 2024–2026
+- **Artifact Evaluation Committee**: ACM CCS 2024, NDSS 2025
+- **External Reviewer**: NDSS, USENIX Security, ACM CCS, IEEE S&P, ACM WiSec, ACM ASIACCS, ACM WOOT
+- **Journal Reviewer**: IEEE Transactions on Information Forensics and Security, IEEE Transactions on Privacy, Journal of Information Processing Systems
+- **Professional Service**: KIISC (한국정보보호학회) 이사, 2025–Present

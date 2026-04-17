@@ -1,9 +1,10 @@
 ---
 layout: profiles
 inline: false
-group: Undergraduate students
-group_rank: 110
-team_frontpage: true
+group: Alumni
+group_rank: 900
+order: 2
+team_frontpage: false
 
 title: Min-hyeong Lee
 description: Profile of bachelor of Science in Computer Science Min-hyeong Lee, Student Researcher at the KHU System Security Lab (KHU-SysSec)
@@ -17,7 +18,8 @@ profile:
   align: right
   image: minhyeong-profile.jpg
   image_orig: minhyeong-profile-orig.jpg
-  role: Student Researcher
+  role: Alumni
+  alumni_note: Former Undergraduate Researcher
   email: lmh09214@khu.ac.kr
 
 ---

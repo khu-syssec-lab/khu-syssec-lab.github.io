@@ -1,0 +1,19 @@
+- title: "NSR Commissioned Research Project"
+  sponsor: "National Security Research Institute (NSR)"
+  period: "2026.04-2026.10"
+  status: current
+
+- title: "IT Platform Stability Research Group Project"
+  sponsor: "Korea Institute of Information Security and Cryptology (KIISC)"
+  period: "2026.02-2026.11"
+  status: current
+
+- title: "Security Policy Research for Enterprises Adopting Emerging 5G Technologies"
+  sponsor: "Korea Internet & Security Agency (KISA)"
+  period: "2025.06-2025.12"
+  status: past
+
+- title: "Development of anti-sniffing technology in mobile communication and AirGap environments"
+  sponsor: "Institute of Information & Communications Technology Planning & Evaluation (IITP)"
+  period: "2025.03-"
+  status: current

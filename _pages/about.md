@@ -30,35 +30,40 @@ We are part of [School of Computing](https://ce.khu.ac.kr/) and [Graduate School
 Our mission is to explore the real-world security issues in **4G/5G cellular networks** and **wireless communication** across various innovative systems such as smartphones, unmanned vehicles, and satellites. 
 
 We are seeking **self-motivated** and **passionate** graduate & under-graduate students with keen interest in wireless security.
-If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the datails of [join our lab]({{ '/contact' | relative_url }}). 
+If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the details of [join our lab]({{ '/contact' | relative_url }}).
 
 
 <!-- 🔶 연구실 모집 공고 배너 시작 -->
 <div class="announcement-banner" style="background-color: #f1c40f; padding: 15px 0; text-align: center; font-size: 1.1em; font-weight: bold; color: black;">
-  🚀 <strong>2026년 가을/2026년 봄학기 석사과정 신입생 및 2026년 학부 연구생 모집 중! </strong>&nbsp;
+  🚀 <strong>2026년 가을/2027년 봄학기 석사과정 신입생 및 2026년 학부 연구생 모집 중! </strong>&nbsp;
   <a href="{{ '/contact' | relative_url }}" style="color: black; text-decoration: underline;">지원 안내 보기 →</a>
 </div>
 <!-- 🔶 연구실 모집 공고 배너 끝 -->
 
-{% assign members = site.members | where: "team_frontpage", true | sort: "group_rank" %}
-<div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">
-    {% for member in members %}
-        {% assign colsMod6 = forloop.length | modulo: 6 %}
-        {% assign colIdMod4 = forloop.index | modulo: 4 %}
-        {% if colsMod6 == 1 and colIdMod4 == 1 %}<div class="col-md-2 w-100"></div>{% endif %}
-        <div class="col-6 col-sm-3 col-md-2 mb-3">
-            <a href="{{ member.url | relative_url }}" class="no-decoration">
-                <div class="card hoverable h-100 m-2">
-                    <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img-top" alt="{{ member.profile.name }}" />
-                    <div class="card-body p-2">
-                        <div class="card-title m-0">{{ member.title }}</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    {% endfor %}
-</div>
+{% assign current_members = site.members | where: "team_frontpage", true | where_exp: "m", "m.group != 'Alumni'" | sort: "group_rank" %}
 
+<section class="home-people-section">
+  <div class="home-section-head">
+    <h2>People</h2>
+  </div>
+
+<div class="d-flex flex-wrap align-content-stretch justify-content-start m-n2 pt-2 no-gutters home-people-grid">
+  {% for member in current_members %}
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+      <a href="{{ member.url | relative_url }}" class="no-decoration">
+        <div class="card hoverable h-100 m-2 home-member-card">
+          <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img-top" alt="{{ member.profile.name }}" />
+          <div class="card-body p-2">
+            <div class="card-title m-0 home-member-name">{{ member.title }}</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+</section>
+
+{% if site.features.gallery %}
 ## Recent Lab Activities
 
 {% include gallery.liquid limit=6 show_description=false %}
@@ -66,3 +71,4 @@ If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the datai
 <div class="mt-3">
   <a href="{{ '/gallery/' | relative_url }}" class="btn btn-sm btn-outline-primary">View Full Gallery</a>
 </div>
+{% endif %}

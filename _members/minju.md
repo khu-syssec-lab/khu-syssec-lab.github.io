@@ -3,6 +3,7 @@ layout: profiles
 inline: false
 group: Undergraduate students
 group_rank: 103
+order: 3
 team_frontpage: true
 
 title: Minju Byeon
@@ -23,4 +24,3 @@ profile:
 
 **Bachlor's student** (2023 ~) in the [Dept. of Computer Science and Engineering](https://ce.khu.ac.kr) 
 ## Research
-

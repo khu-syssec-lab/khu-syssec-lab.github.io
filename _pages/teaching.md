@@ -13,6 +13,8 @@ nav_order: 10
 - CSE201 Discrete Structure
 - CSE304 Algorithm
 - CSE406 Capstone Design
+- CSE495 Individual In-Depth Study
+- CSE7406 Advanced Information Security
 
 
 {% assign courses = site.courses | where: "past", false | reverse %}

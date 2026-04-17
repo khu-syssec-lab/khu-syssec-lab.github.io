@@ -1,0 +1,139 @@
+.pub-page-note {
+  margin: 0.2rem 0 1.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+}
+
+.pub-section {
+  margin: 1.7rem 0 2.1rem;
+}
+
+.pub-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
+}
+
+.pub-section-head h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+.pub-section-head p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.pub-section-note {
+  margin: 0.6rem 0 0.1rem;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.pub-list {
+  display: grid;
+}
+
+.pub-entry {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  column-gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.pub-date {
+  color: var(--global-text-color-light);
+  font-size: 0.84rem;
+  padding-top: 0.1rem;
+  white-space: nowrap;
+}
+
+.pub-main {
+  min-width: 0;
+}
+
+.pub-title {
+  margin: 0;
+  font-size: 1.03rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.pub-authors {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.pub-venue-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+}
+
+.pub-venue {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 0.08rem 0.42rem;
+  color: var(--global-theme-color);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.pub-type {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+}
+
+.pub-award {
+  color: var(--global-theme-color);
+  font-size: 0.83rem;
+  font-weight: 650;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.45rem;
+}
+
+.pub-links a {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.pub-empty {
+  margin: 0.7rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .pub-section-head {
+    display: block;
+  }
+
+  .pub-section-head p {
+    margin-top: 0.15rem;
+    text-align: left;
+  }
+
+  .pub-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
+}

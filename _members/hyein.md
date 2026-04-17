@@ -1,9 +1,10 @@
 ---
 layout: profiles
 inline: false
-group: Undergraduate students
-group_rank: 105
-team_frontpage: true
+group: Alumni
+group_rank: 900
+order: 3
+team_frontpage: false
 
 title: Hye-in Jeong
 description: Profile of bachelor of Science in Food and Nutrition and Computer Science (Double Major) Hye-In Jeong, Student Researcher at the KHU System Security Lab (KHU-SysSec)
@@ -17,7 +18,8 @@ profile:
   align: right
   image: hyein-profile.jpg
   image_orig: hyein-profile-orig.jpg
-  role: Student Researcher
+  role: Alumni
+  alumni_note: Former Undergraduate Researcher
   email: window765@khu.ac.kr
   linkedin: hye-in-jeong-0ab37b311
   github: Ahranah

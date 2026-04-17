@@ -1,0 +1,152 @@
+.team-section {
+  margin: 1.7rem 0 2.2rem;
+}
+
+.faculty-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.faculty-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--global-card-bg-color);
+}
+
+.faculty-link {
+  display: grid;
+  grid-template-columns: 142px minmax(0, 1fr);
+  gap: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.faculty-link:hover,
+.member-link:hover,
+.alumni-archive-row:hover {
+  text-decoration: none;
+}
+
+.faculty-photo {
+  width: 142px;
+  height: 142px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.faculty-info h3,
+.member-info h3 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.faculty-info h3 {
+  font-size: 1.28rem;
+}
+
+.faculty-title,
+.member-title {
+  color: var(--global-text-color-light);
+}
+
+.faculty-title {
+  margin-top: 0.18rem;
+  font-size: 0.98rem;
+}
+
+.team-role {
+  margin-top: 0.3rem;
+  color: var(--global-theme-color);
+  font-weight: 650;
+}
+
+.faculty-info p {
+  margin: 0.65rem 0 0;
+  line-height: 1.5;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 160px));
+  gap: 0.85rem;
+  justify-content: start;
+}
+
+.member-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.72rem;
+  background: var(--global-card-bg-color);
+}
+
+.member-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.member-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 0.55rem;
+}
+
+.member-info h3 {
+  font-size: 1rem;
+}
+
+.member-title {
+  margin-top: 0.12rem;
+  font-size: 0.85rem;
+}
+
+.team-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.62rem;
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+}
+
+.alumni-archive {
+  display: grid;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.alumni-archive-row {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 0.25fr) minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 0.42rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  color: inherit;
+  font-size: 0.92rem;
+}
+
+.alumni-name {
+  font-weight: 650;
+}
+
+.alumni-title {
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 576px) {
+  .faculty-link {
+    grid-template-columns: 1fr;
+  }
+
+  .faculty-photo {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .alumni-archive-row {
+    grid-template-columns: 1fr;
+    gap: 0.05rem;
+  }
+}

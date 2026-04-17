@@ -1,0 +1,15 @@
+- title: "Cellular Protocol Security"
+  description: "Security analysis of NAS/RRC/VoNR procedures in 4G/5G systems with OTA-driven testing."
+  keywords: "4G/5G, NAS/RRC, protocol fuzzing"
+
+- title: "Satellite & NTN Security"
+  description: "Threat modeling and practical evaluation of 5G-NTN and LEO/CubeSat communication security."
+  keywords: "NTN, LEO, signal spoofing"
+
+- title: "Rogue Entity Detection"
+  description: "Detection and mitigation of fake base stations and malicious UEs via signaling and RF analytics."
+  keywords: "FBS detection, anomaly analysis"
+
+- title: "AI-assisted Security Testing"
+  description: "LLM-guided and automation-based approaches for faster vulnerability discovery in wireless standards."
+  keywords: "LLM analysis, test generation"

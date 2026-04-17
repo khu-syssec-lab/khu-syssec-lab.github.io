@@ -1,0 +1,54 @@
+{% assign all_sections = site.data.publications.sections %}
+
+<div class="pub-page-note">
+  Publications are grouped by venue type and listed in reverse chronological order.
+</div>
+
+{% for section in all_sections %}
+  {% if section.hidden %}
+    {% continue %}
+  {% endif %}
+  <section class="pub-section" id="{{ section.id }}">
+    <div class="pub-section-head">
+      <h2>{{ section.title }}</h2>
+      {% if section.subtitle %}<p>{{ section.subtitle }}</p>{% endif %}
+    </div>
+    {% if section.note %}
+      <p class="pub-section-note">{{ section.note }}</p>
+    {% endif %}
+
+    {% if section.entries and section.entries.size > 0 %}
+      <div class="pub-list">
+        {% for pub in section.entries %}
+          <article class="pub-entry">
+            <div class="pub-date">{{ pub.period }}</div>
+            <div class="pub-main">
+              <h3 class="pub-title">{{ pub.title }}</h3>
+              <div class="pub-authors">{{ pub.authors }}</div>
+              <div class="pub-venue-row">
+                <span class="pub-venue">{{ pub.venue }}</span>
+                {% if pub.type %}<span class="pub-type">{{ pub.type }}</span>{% endif %}
+                {% if pub.award %}<span class="pub-award">{{ pub.award }}</span>{% endif %}
+              </div>
+              {% if pub.links %}
+                <div class="pub-links">
+                  {% if pub.links.paper %}
+                    {% assign paper_href = pub.links.paper %}
+                    {% unless paper_href contains '://' %}
+                      {% assign paper_href = paper_href | relative_url %}
+                    {% endunless %}
+                    <a href="{{ paper_href }}" target="_blank" rel="noopener noreferrer">Paper</a>
+                  {% endif %}
+                  {% if pub.links.code %}<a href="{{ pub.links.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+                  {% if pub.links.news %}<a href="{{ pub.links.news }}" target="_blank" rel="noopener noreferrer">News</a>{% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="pub-empty">No entries yet.</p>
+    {% endif %}
+  </section>
+{% endfor %}

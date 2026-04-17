@@ -3,6 +3,7 @@ layout: profiles
 inline: false
 group: Alumni
 group_rank: 4
+order: 1
 team_frontpage: false
 
 title: Yujin Shin 
@@ -17,6 +18,8 @@ profile:
   align: right
   image: yujin-profile.jpg
   image_orig: yujin-profile.jpg
+  role: Alumni
+  alumni_note: Former Undergraduate Researcher
   email: chmpgnespnv@khu.ac.kr
 ---
 

@@ -1,0 +1,176 @@
+sections:
+  - id: international
+    title: International Publications
+    subtitle: Peer-reviewed international conferences, journals, and workshops
+    entries:
+      - period: "Dec 2025"
+        title: "OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands"
+        authors: "CheolJun Park, Marc Egli, BeomSeok Oh, Tuan Dinh Hoang, Suhwan Jeong, Martin Crettol, Insu Yun, Mathias Payer, and Yongdae Kim"
+        venue: "ACSAC 2025"
+        type: "Conference"
+        links:
+          paper: "/assets/pdf/25-acsac-otabase.pdf"
+          code: "https://github.com/OTABase/OTABase"
+
+      - period: "Oct 2025"
+        title: "CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks"
+        authors: "Mincheol Son, Kwangmin Kim, Beomseok Oh, CheolJun Park, and Yongdae Kim"
+        venue: "ACM CCS 2025"
+        type: "Conference"
+        award: "Distinguished Paper Award"
+        links:
+          paper: "/assets/pdf/25-ccs-citesting.pdf"
+          code: "https://github.com/SysSec-KAIST/CITesting"
+          news: "https://www.etnews.com/20251031000168"
+
+      - period: "Aug 2025"
+        title: "Denial-of-Service Risks in 5G Devices: Empirical Analysis on Connection Restriction Mechanisms"
+        authors: "Beomseok Oh, Mincheol Son, Kwangmin Kim, Jiho Lee, Duckwoo Kim, Taekkyung Oh, CheolJun Park, and Yongdae Kim"
+        venue: "WISA 2025"
+        type: "Conference"
+        award: "Best Paper Award"
+
+      - period: "Aug 2025"
+        title: "LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers"
+        authors: "Tuan Dinh Hoang, Taekkyung Oh, CheolJun Park, Insu Yun, and Yongdae Kim"
+        venue: "USENIX Security 2025"
+        type: "Conference"
+        links:
+          paper: "/assets/pdf/25-usenix-llfuzz.pdf"
+          code: "https://github.com/SysSec-KAIST/LLFuzz"
+          news: "https://www.dailysecu.com/news/articleView.html?idxno=168289"
+
+      - period: "May 2025"
+        title: "FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation"
+        authors: "Suhwan Jeong, Beomseok Oh, Kwangmin Kim, Insu Yun, Yongdae Kim, and CheolJun Park"
+        venue: "WiSec 2025"
+        type: "Conference"
+        links:
+          paper: "https://dl.acm.org/doi/pdf/10.1145/3734477.3734726"
+          code: "https://github.com/1nteger-c/FirmState"
+
+      - period: "Nov 2024"
+        title: "Automated Exploit Generation for Cellular Security Using Fake UE"
+        authors: "Mincheol Son, Kwangmin Kim, Suhwan Jeong, Jiwoo Suh, CheolJun Park, and Yongdae Kim"
+        venue: "MobiSec 2024"
+        type: "Workshop"
+
+      - period: "Aug 2023"
+        title: "BASECOMP: A Comparative Analysis for Integrity Protection in Cellular Baseband Software"
+        authors: "Eunsoo Kim, Min Woo Baek, CheolJun Park, Dongkwan Kim, Yongdae Kim, and Insu Yun"
+        venue: "USENIX Security 2023"
+        type: "Conference"
+        links:
+          paper: "https://www.usenix.org/system/files/usenixsecurity23-kim-eunsoo.pdf"
+
+      - period: "May 2023"
+        title: "LTESniffer: An Open-source LTE Downlink/Uplink Eavesdropper"
+        authors: "Tuan D. Hoang, CheolJun Park, Mincheol Son, Taekkyung Oh, Sangwook Bae, Junho Ahn, Beomseok Oh, and Yongdae Kim"
+        venue: "WiSec 2023"
+        type: "Conference"
+        links:
+          paper: "https://syssec.kaist.ac.kr/pub/2023/wisec2023_tuan.pdf"
+          code: "https://github.com/SysSec-KAIST/LTESniffer"
+
+      - period: "Aug 2022"
+        title: "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices"
+        authors: "CheolJun Park, Sangwook Bae, BeomSeok Oh, Jiho Lee, Eunkyu Lee, Insu Yun and Yongdae Kim"
+        venue: "USENIX Security 2022"
+        type: "Conference"
+        links:
+          paper: "https://www.usenix.org/system/files/sec22-park-cheoljun.pdf"
+          code: "https://github.com/SysSec-KAIST/DoLTEst"
+
+      - period: "Aug 2022"
+        title: "Watching the Watchers: Practical Video Identification Attack in LTE Networks"
+        authors: "Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim"
+        venue: "USENIX Security 2022"
+        type: "Conference"
+        links:
+          paper: "https://www.usenix.org/system/files/sec22-bae.pdf"
+          code: "https://github.com/SysSec-KAIST/WatchingTheWatchers"
+
+      - period: "Feb 2021"
+        title: "BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols"
+        authors: "Dongkwan Kim, Eunsoo Kim, CheolJun Park, Insu Yun, and Yongdae Kim"
+        venue: "NDSS 2021"
+        type: "Conference"
+        links:
+          paper: "https://www.ndss-symposium.org/wp-content/uploads/2021-365-paper.pdf"
+          code: "https://github.com/SysSec-KAIST/BaseSpec"
+
+  - id: domestic
+    title: Domestic Publications
+    hidden: true
+    subtitle: Partial list; additional domestic papers and presentations will be added.
+    note: "This section is currently being organized and does not yet include the full domestic publication record."
+    entries:
+      - period: "2024"
+        title: "5G SA 네트워크에서 상태 기반 블랙박스 테스팅 기법"
+        authors: "CheolJun Park and collaborators"
+        venue: "CISC 2024"
+        type: "Conference"
+
+      - period: "2023"
+        title: "이동통신 단말 테스트를 위한 자동화 도구 개발 및 시연"
+        authors: "CheolJun Park and collaborators"
+        venue: "KIISC 2023"
+        type: "Conference"
+
+  - id: patents
+    title: Patents
+    subtitle: Patent applications and registrations
+    entries:
+      - period: "Filed"
+        title: "Stateful Black Box Testing for 5G Standalone Cellular Network"
+        authors: "CheolJun Park and collaborators"
+        venue: "KR 10-2022-0182441"
+        type: "Patent"
+
+      - period: "Filed"
+        title: "Method for IMEI verification and unauthorized device detection using control plane message and the system thereof"
+        authors: "CheolJun Park and collaborators"
+        venue: "US18472021; KR 10-2022-0120586"
+        type: "Patent"
+
+      - period: "Granted / Filed"
+        title: "Security analysis system and method based on negative testing for protocol implementation of LTE device"
+        authors: "CheolJun Park and collaborators"
+        venue: "US17960246; KR 10-2514797"
+        type: "Patent"
+
+      - period: "Granted"
+        title: "Method and system for automatically analyzing bugs in cellular baseband software using comparative analysis based on cellular specifications"
+        authors: "CheolJun Park and collaborators"
+        venue: "KR 10-254946"
+        type: "Patent"
+
+      - period: "Filed"
+        title: "Method to prevent mapping of user identifiers in the mobile communication system"
+        authors: "CheolJun Park and collaborators"
+        venue: "KR 10-2020-0133926"
+        type: "Patent"
+
+      - period: "Granted"
+        title: "FBS redirection attack method using unicast message injection in LTE and the system thereof"
+        authors: "CheolJun Park and collaborators"
+        venue: "US12010650B2; KR 10-2450114"
+        type: "Patent"
+
+      - period: "Granted"
+        title: "Video identification method in LTE networks and the system thereof"
+        authors: "CheolJun Park and collaborators"
+        venue: "KR 10-2514809"
+        type: "Patent"
+
+      - period: "Granted"
+        title: "Method for measuring induced electromotive force, method for tracking marker position using induced electromotive force, and apparatus for performing the same"
+        authors: "CheolJun Park and collaborators"
+        venue: "KR 10-2287190"
+        type: "Patent"
+
+      - period: "Granted / Filed"
+        title: "Powerless electromagnetic sensor and surgical navigation system including same"
+        authors: "CheolJun Park and collaborators"
+        venue: "PCT/KR2018/015731; KR 10-2092445-0000"
+        type: "Patent"

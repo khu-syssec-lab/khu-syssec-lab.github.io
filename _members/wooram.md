@@ -3,6 +3,7 @@ layout: profiles
 inline: false
 group: Undergraduate students
 group_rank: 102
+order: 2
 team_frontpage: true
 
 title: WooRam Park
@@ -15,7 +16,7 @@ teaser: >
 profile:
   name: 박우람
   align: right
-  image: blank-profile.png
+  image: wooram-profile.jpg
   image_orig: wooram-profile-orig.jpg
   email: a22310624@gmail.com
 
