@@ -3,6 +3,14 @@ sections:
     title: International Publications
     subtitle: Peer-reviewed international conferences, journals, and workshops
     entries:
+      - period: "May 2026"
+        title: "POSTER: Accountable Cross-Operator 5G Charging via TEEs"
+        authors: "Mijin Shin, Wooram Park, Sangwook Bae, CheolJun Park†, and Seongmin Kim†"
+        venue: "WiSec 2026"
+        type: "Poster"
+        links:
+          paper: "/assets/pdf/26-wisec-poster-accountable-cross-operator-5g-charging-via-tees.pdf"
+
       - period: "Dec 2025"
         title: "OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands"
         authors: "CheolJun Park, Marc Egli, BeomSeok Oh, Tuan Dinh Hoang, Suhwan Jeong, Martin Crettol, Insu Yun, Mathias Payer, and Yongdae Kim"
@@ -14,7 +22,7 @@ sections:
 
       - period: "Oct 2025"
         title: "CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks"
-        authors: "Mincheol Son, Kwangmin Kim, Beomseok Oh, CheolJun Park, and Yongdae Kim"
+        authors: "Mincheol Son, Kwangmin Kim, Beomseok Oh, CheolJun Park†, and Yongdae Kim†"
         venue: "ACM CCS 2025"
         type: "Conference"
         award: "Distinguished Paper Award"
@@ -32,7 +40,7 @@ sections:
 
       - period: "Aug 2025"
         title: "LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers"
-        authors: "Tuan Dinh Hoang, Taekkyung Oh, CheolJun Park, Insu Yun, and Yongdae Kim"
+        authors: "Tuan Dinh Hoang, Taekkyung Oh, CheolJun Park†, Insu Yun†, and Yongdae Kim"
         venue: "USENIX Security 2025"
         type: "Conference"
         links:
@@ -57,7 +65,7 @@ sections:
 
       - period: "Aug 2023"
         title: "BASECOMP: A Comparative Analysis for Integrity Protection in Cellular Baseband Software"
-        authors: "Eunsoo Kim, Min Woo Baek, CheolJun Park, Dongkwan Kim, Yongdae Kim, and Insu Yun"
+        authors: "Eunsoo Kim*, Min Woo Baek*, CheolJun Park, Dongkwan Kim, Yongdae Kim, and Insu Yun"
         venue: "USENIX Security 2023"
         type: "Conference"
         links:
@@ -74,7 +82,7 @@ sections:
 
       - period: "Aug 2022"
         title: "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices"
-        authors: "CheolJun Park, Sangwook Bae, BeomSeok Oh, Jiho Lee, Eunkyu Lee, Insu Yun and Yongdae Kim"
+        authors: "CheolJun Park*, Sangwook Bae*, BeomSeok Oh, Jiho Lee, Eunkyu Lee, Insu Yun and Yongdae Kim"
         venue: "USENIX Security 2022"
         type: "Conference"
         links:
@@ -92,7 +100,7 @@ sections:
 
       - period: "Feb 2021"
         title: "BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols"
-        authors: "Dongkwan Kim, Eunsoo Kim, CheolJun Park, Insu Yun, and Yongdae Kim"
+        authors: "Dongkwan Kim*, Eunsoo Kim*, CheolJun Park, Insu Yun, and Yongdae Kim"
         venue: "NDSS 2021"
         type: "Conference"
         links:

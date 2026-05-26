@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Structured list of international/domestic publications from KHU SysSec Lab
+description: Selected publications, posters, and patents
 nav: true
 nav_order: 4
 ---
