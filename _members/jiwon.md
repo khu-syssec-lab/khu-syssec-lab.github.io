@@ -27,10 +27,6 @@ profile:
 
 I am a **master's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), specializing in convergence security, and I joined KHU-SysSec as a **student researcher** in January 2026. My research focuses on **cellular security**.
 
-## Research Interests
-
-- Cellular network security
-
 ## Education
 
 - **M.S. in Computer Science & Engineering** (Mar. 2026 ~ Present)  
