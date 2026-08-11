@@ -49,10 +49,8 @@ I am a **master's student** in the [Dept. of Computer Science & Engineering](htt
 11. **Outstanding Graduate**, Information Security Education Institute for Gifted, Seoul Women's University, 2020
 12. **Excellence Award**, White Hat Hacker Competition, Hyundai AutoEver, 2019
 
-## Experience
+## Activities
 
-- **Teaching Assistant — Algorithms (CSE304)** (Mar. 2026 ~ Present)  
-   Kyung Hee University
 - **Financial Security Academy, 3rd Cohort** (2025)  
    Financial Security Institute
 - **Member of [HackyBoiz](https://hackyboiz.github.io/)** (2024 ~ Present)  
