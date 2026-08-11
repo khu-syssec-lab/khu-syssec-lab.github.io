@@ -14,9 +14,6 @@ description: Profile of English Name, Student Researcher at the KHU-SysSec.
 lastname: Surname
 publications: 'author^=*Surname'
 
-teaser: >
-  B.S. Candidate. Student Researcher at the KHU-SysSec. Interested in Cellular Security.
-
 profile:
   name: 한글이름
   align: right
