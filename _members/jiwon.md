@@ -27,6 +27,10 @@ profile:
 
 I am a **master's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), specializing in convergence security, and I joined KHU-SysSec as a **student researcher** in January 2026. My research focuses on **cellular security**.
 
+## Research
+
+- Cellular network security
+
 ## Education
 
 - **M.S. in Computer Science & Engineering** (Mar. 2026 ~ Present)  
@@ -34,7 +38,7 @@ I am a **master's student** in the [Dept. of Computer Science & Engineering](htt
 - **B.S. in Information Security** (Mar. 2022 ~ Feb. 2026)  
    Seoul Women's University
 
-## Honors & Awards
+## Awards
 
 1. **Encouragement Award**, Financial Security Academy 2025, Financial Security Institute, Nov. 2025
 2. **Grand Prize**, Personal Information Protection PBL, Personal Information Protection Research Center, Seoul Women's University, 2024

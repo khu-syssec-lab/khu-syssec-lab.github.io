@@ -33,17 +33,16 @@ profile:
 
 I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), and I joined KHU-SysSec as an **undergraduate researcher** in March 2026. My research focuses on **cellular security**.
 
+## Research
+
+- Cellular network security
+
 ## Education
 
 - **B.S. in Computer Science & Engineering** (Mar. 2022 ~ Present)  
    Kyung Hee University
 
-## Publications & Presentations
-
-- **Paper or poster title**  
-   KIISC CISC-S, *Seoul, Jun. 2026*
-
-## Honors & Awards
+## Awards
 
 1. **Grand Prize**, Cyber Security Hackathon, Korea Internet & Security Agency, Aug. 2025
 
