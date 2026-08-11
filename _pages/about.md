@@ -34,9 +34,9 @@ If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the detai
 
 
 <!-- 🔶 연구실 모집 공고 배너 시작 -->
-<div class="announcement-banner" style="background-color: #f1c40f; padding: 15px 0; text-align: center; font-size: 1.1em; font-weight: bold; color: black;">
-  🚀 <strong>2026년 가을/2027년 봄학기 석사과정 신입생 및 2026년 학부 연구생 모집 중! </strong>&nbsp;
-  <a href="{{ '/contact' | relative_url }}" style="color: black; text-decoration: underline;">지원 안내 보기 →</a>
+<div class="announcement-banner">
+  🚀 <strong>2026년 가을/2027년 봄학기 석사과정 신입생 및 2026년 학부 연구생 모집 중!</strong>&nbsp;
+  <a href="{{ '/contact' | relative_url }}">지원 안내 보기 →</a>
 </div>
 <!-- 🔶 연구실 모집 공고 배너 끝 -->
 
@@ -62,13 +62,3 @@ If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the detai
   {% endfor %}
 </div>
 </section>
-
-{% if site.features.gallery %}
-## Recent Lab Activities
-
-{% include gallery.liquid limit=6 show_description=false %}
-
-<div class="mt-3">
-  <a href="{{ '/gallery/' | relative_url }}" class="btn btn-sm btn-outline-primary">View Full Gallery</a>
-</div>
-{% endif %}

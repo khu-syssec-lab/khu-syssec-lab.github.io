@@ -69,7 +69,7 @@ max_width: 900px
 
 # Feature toggles
 features:
-  gallery: false
+  gallery: true
 
 # TODO: add layout settings (single page vs. multi-page)
 

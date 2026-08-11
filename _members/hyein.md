@@ -23,13 +23,13 @@ profile:
   email: window765@khu.ac.kr
   linkedin: hye-in-jeong-0ab37b311
   github: Ahranah
-  website: https://ahranah.tistory.com/
-  cv: https://ahranah.notion.site/2141f17a6037803b9072fe3eb2205f34?source=copy_link
+  website: https://ahranah.tistory.com/
+  cv: https://ahranah.notion.site/2141f17a6037803b9072fe3eb2205f34?source=copy_link
 
 ---
   
-- **Bachelor's student** (Mar. 2020 – Present), [Department of Food and Nutrition, Kyung Hee University.](https://che.khu.ac.kr/che/user/contents/view.do?menuNo=12700014)
-- **Double Major** in [Computer Science.](https://ce.khu.ac.kr/ce/user/main/view.do)
+- **Bachelor's student** (Mar. 2020 – Present), [Department of Food and Nutrition, Kyung Hee University.](https://che.khu.ac.kr/che/user/contents/view.do?menuNo=12700014)
+- **Double Major** in [Computer Science.](https://ce.khu.ac.kr/ce/user/main/view.do)
 
   
 

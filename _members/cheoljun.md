@@ -5,7 +5,7 @@ group: Faculty
 group_rank: 1
 team_frontpage: true
 
-title: CheolJun Park  
+title: CheolJun Park
 description: Profile of Prof. CheolJun Park, Head of the KHU-SysSec.
 lastname: Park
 publications: 'author^=*Park'
@@ -14,8 +14,7 @@ teaser: >
     I’m an Assistant Professor in School of Computing at the Kyung Hee University.
 
 profile:
-    name: 박철준 
-    # position: PI
+    name: 박철준
     align: right
     image: cheoljun-profile.jpeg
     image_orig: cheoljun-profile-orig.jpeg
@@ -26,38 +25,22 @@ profile:
     cv: /assets/cv/cv-cheoljun-260210.pdf
     # orcid: 0000-0002-9324-8894
     scholar: cKvQd74AAAAJ
-    address: > 
+    phone: +82-31-201-3771
+    address: >
+      #7034 Woojungwon, Kyung Hee University Global Campus,
+      1732 Deokyeong-daero, Giheung-gu, Yongin-si,
+      Gyeonggi-do, Republic of Korea
+      <br />
+      경기도 용인시 기흥구 덕영대로 1732
+      경희대학교 국제캠퍼스 우정원 7034호
 ---
 
-<!-- <b>Office</b> #7034 Woojungwon <br />
-Kyung Hee University<br />
-1732 Deokyeong-daero, Giheung-gu<br />
-Yongin-si, Gyeonggi-do, South Korea <br />
-(KR) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스 우정원 7034호 -->
+I am an **assistant professor** in the [School of Computing](https://ce.khu.ac.kr) and the [Graduate School of Security Convergence](https://csec.khu.ac.kr/) at [Kyung Hee University](https://khu.ac.kr), where I lead the **System Security Lab (KHU-SysSec)**. My research focuses on real-world security problems in **4G/5G cellular networks** and **wireless systems**, from network protocols down to baseband software.
 
-
-- **Assistant professor** (Sep. 2024 ~) in the [School of Computing](https://ce.khu.ac.kr) and [Graduate School of Security Convergence](https://csec.khu.ac.kr/) @ [Kyung Hee University](https://khu.ac.kr)
-- I received my Ph.D. from the <a href="https://ee.kaist.ac.kr/en/" class="link-dark" target="_blank">school of electrical engineering</a> (EE) at <a href="https://www.kaist.ac.kr/en/" class="link-dark" target="_blank">Korea Advanced Institute of Science and Technology</a> (KAIST) under the supervision of <a href="https://syssec.kaist.ac.kr/~yongdaek/" class="link-dark" target="_blank">Prof. Yongdae Kim</a>.
-Also, I received my MS and BS degrees from KAIST EE in 2019 and 2017, respectively.
-- Previously, I worked as a **postdoc researcher at KAIST EE** in 2024, an **intern at Qualcomm product security initiative (QPSI)** in 2023 and a **visiting researcher at CISPA Helmholtz Center for Information Security** in 2022.
-  
---- 
-
-**Office**: (KR) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스 우정원 7034호 (EN) #7034, Woojungwon, Kyung Hee University Global Campus, 1732 Deokyeong-daero, Giheung-gu, Yongin-si, Gyeonggi-do, Repub. of Korea 
-
-**Email**: cheoljunp@khu.ac.kr \| **Tel**: +82-31-201-3771
-
-<!-- I am an assistant professor in the [School of Computing](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr). 
-I received my Ph.D. from the <a href="https://ee.kaist.ac.kr/en/" class="link-dark" target="_blank">school of electrical engineering</a> (EE) at <a href="https://www.kaist.ac.kr/en/" class="link-dark" target="_blank">Korea Advanced Institute of Science and Technology</a> (KAIST) under the supervision of <a href="https://syssec.kaist.ac.kr/~yongdaek/" class="link-dark" target="_blank">Prof. Yongdae Kim</a>.
-Also, I received my MS and BS degrees from KAIST EE in 2019 and 2017, respectively.  -->
-
-<!-- I research on cellular network security and wireless security. 
-My research interests includes design and implementation vulnerabilities in cellular network, security testing framework, phyiscal-layer attack, defense solutions, etc. 
-Previously, I worked as intern at Qualcomm product security initiative (QPSI) in 2023 and visiting researcher at CISPA Helmholtz Center for Information Security in 2022. -->
-
----
+I received my **Ph.D.** from the [school of electrical engineering](https://ee.kaist.ac.kr/en/) (EE) at [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST) under the supervision of [Prof. Yongdae Kim](https://syssec.kaist.ac.kr/~yongdaek/), and my M.S. and B.S. degrees from KAIST EE in 2019 and 2017. Before joining KHU in September 2024, I worked as a **postdoc researcher at KAIST EE** (2024), an **intern at the Qualcomm Product Security Initiative** (QPSI, 2023), and a **visiting researcher at the CISPA Helmholtz Center for Information Security** (2022).
 
 ## Talks
+
 - **Finding memory bugs in the cellular baseband via over-the-air interface**  
    Qualcomm Product Security Summit (QPSS), *San Diego, May. 2024*
 
@@ -67,7 +50,8 @@ Previously, I worked as intern at Qualcomm product security initiative (QPSI) in
    - Invited seminar at Korea Air Force Academy, *Cheongju, Apr. 2024*  
    - Invited seminar at National Security Research Institute, *Daejeon, Mar. 2024*  
    - Invited seminar at Haboob (cybersecurity company), *Riyadh, Feb. 2024*
-- **Research Trends on Physical Signal and Communication Channel-Based Soft Kill Techniques for Anti-Drone Systems**
+
+- **Research Trends on Physical Signal and Communication Channel-Based Soft Kill Techniques for Anti-Drone Systems**  
    Workshop on Automotive and Unmanned Vehicle Security @ KIISC, *Seoul, Aug. 2024*
 
 - **Finding memory bugs in the cellular baseband using over-the-air framework**  
@@ -80,6 +64,7 @@ Previously, I worked as intern at Qualcomm product security initiative (QPSI) in
    Chaos Communication Congress (CCC) Conference (36C3), *Leipzig, Dec. 2019*
 
 ## Honors & awards
+
 ### CVEs
 
 - **CVE-2024-23385**: Qualcomm baseband chipsets, "Transient DOS as modem reset occurs when an unexpected MAC RAR (with invalid PDU length) is seen at UE" [ [Qualcomm acknowledgements](https://docs.qualcomm.com/product/publicresources/securitybulletin/november-2024-bulletin.html) ]
@@ -106,11 +91,11 @@ Previously, I worked as intern at Qualcomm product security initiative (QPSI) in
 
 - **CVE-2019-2289**: Qualcomm baseband chipsets, "Lack of integrity check allowing modem to accept any LTE NAS messages, which can result in authentication bypass of NAS", $15,000
 
-### Awards 
+### Awards
 
 1. **Best Paper Award**, Ministry of the Interior and Safety of South Korea, Conference on Information Security and Cryptography, Nov. 2022
 2. **Best Paper Award**, Conference on Information Security and Cryptography, Nov. 2021
-3. **Grand Prize**, KIISC-KAIS Research Paper Competition Oct. 2021
+3. **Grand Prize**, KIISC-KAIS Research Paper Competition, Oct. 2021
 4. **Best Paper Award**, NSR Director, Conference on Information Security and Cryptography, Nov. 2020
 5. **Best Paper Award**, ETRI President, Conference on Information Security and Cryptography, Jul. 2020
 

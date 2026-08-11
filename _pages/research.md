@@ -4,7 +4,7 @@ permalink: /research/
 title: Research
 description: 
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 {% include research_overview.liquid %}
@@ -72,7 +72,7 @@ Our goal is to uncover both implementation-level bugs and standard-level design 
 
 <!-- <figure>
   <img src="/assets/img/ue-testing.png" alt="UE testing diagram" style="max-width: 100%;" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Security issues arise from both standard and implementation flaws.
   </figcaption>
 </figure> -->
@@ -80,7 +80,7 @@ Our goal is to uncover both implementation-level bugs and standard-level design 
 <figure style="text-align: center;">
   <img src="/assets/img/ue-testing.png" alt="UE testing diagram"
        style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: white; padding: 4px;" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Security issues arise from both standard and implementation flaws.
   </figcaption>
 </figure>
@@ -102,7 +102,7 @@ We analyze how key 5G NTN procedures, such as access and mobility management, be
 
 <!-- <figure>
   <img src="/assets/img/satellite-security.png" alt="Satellite security threats diagram" style="max-width: 100%;" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attack surfaces in LEO satellite systems and RF communication links.
   </figcaption>
 </figure> -->
@@ -110,7 +110,7 @@ We analyze how key 5G NTN procedures, such as access and mobility management, be
 <figure style="text-align: center;">
   <img src="/assets/img/satellite-security.png" alt="Satellite security threats diagram"
        style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: white; padding: 4px;" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attack surfaces in LEO satellite systems and RF communication links.
   </figcaption>
 </figure>
@@ -133,7 +133,7 @@ Field experiments and testbed deployments are an essential part of this work, us
 
 <!-- <figure style="text-align: center;">
   <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types" style="max-width: 80%;" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attacker models targeting cellular networks.
   </figcaption>
 </figure> -->
@@ -141,7 +141,7 @@ Field experiments and testbed deployments are an essential part of this work, us
 <!-- <figure style="text-align: center;">
   <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types"
        style="max-width: 80%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attacker models targeting cellular networks.
   </figcaption>
 </figure> -->
@@ -151,7 +151,7 @@ Field experiments and testbed deployments are an essential part of this work, us
     <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types"
          style="max-width: 80%;" />
   </div>
-  <figcaption style="text-align: center; font-size: 0.9em; color: gray; margin-top: 0.5em;">
+  <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attacker models targeting cellular networks.
   </figcaption>
 </figure>

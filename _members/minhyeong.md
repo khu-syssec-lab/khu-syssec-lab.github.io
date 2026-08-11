@@ -24,7 +24,7 @@ profile:
 
 ---
   
-- **Bachelor's student** (Jan. 2026 – Present), [Computer Science, Kyung Hee University.](https://ce.khu.ac.kr/ce/user/main/view.do)
+- **Bachelor's student** (Jan. 2026 – Present), [Computer Science, Kyung Hee University.](https://ce.khu.ac.kr/ce/user/main/view.do)
   
 
 ## Research

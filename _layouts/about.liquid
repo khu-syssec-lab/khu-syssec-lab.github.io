@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">
       <!-- Lab logo beside the title -->
       {% comment %} <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Lab Logo" class="lab-logo"> {% endcomment %}
-      
+
       <!-- Title -->
       <span class="lab-title">
         {% if site.title == 'blank' %}
@@ -16,7 +16,7 @@ layout: default
         {% endif %}
       </span>
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
   </header>
 
   <article class="home-about-article">
@@ -31,20 +31,95 @@ layout: default
           {% assign profile_image_file = 'blank-profile.png' %}
         {% endif %}
         {% assign profile_image_path = profile_image_file | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% assign profile_carousel_class = 'profile-carousel profile-carousel--circular' %}
+        {% else %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% assign profile_carousel_class = 'profile-carousel' %}
+        {% endif %}
+
+        {% assign gallery_slides = '' | split: '' %}
+        {% if site.features.gallery %}
+          {% assign gallery_slides = site.data.gallery | sort: "date" | reverse | slice: 0, 6 %}
+        {% endif %}
+
+        <div class="{{ profile_carousel_class }}" data-profile-carousel>
+          <div class="profile-carousel-viewport">
+            <div class="profile-carousel-track">
+              <img
+                class="profile-carousel-img is-active {{ profile_image_class }}"
+                src="{{ profile_image_path | relative_url | bust_file_cache }}"
+                alt="{{ page.profile.image }}"
+                data-caption="{{ page.profile.more_info | strip_html | escape }}"
+                loading="eager"
+              />
+              {% for item in gallery_slides %}
+                <img
+                  class="profile-carousel-img {{ profile_image_class }}"
+                  src="{{ '/assets/img/' | append: item.image | relative_url }}"
+                  alt="{{ item.title | escape }}"
+                  data-caption="{{ item.title | escape }}"
+                  loading="lazy"
+                />
+              {% endfor %}
+            </div>
+            {% if gallery_slides.size > 0 %}
+              <button type="button" class="profile-carousel-nav prev" aria-label="Previous photo">&#10094;</button>
+              <button type="button" class="profile-carousel-nav next" aria-label="Next photo">&#10095;</button>
+            {% endif %}
+          </div>
+
+          {% if page.profile.more_info or gallery_slides.size > 0 %}
+            <div class="profile-carousel-caption more-info">{{ page.profile.more_info }}</div>
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+
+          {% if gallery_slides.size > 0 %}
+            <div class="profile-carousel-dots">
+              <button type="button" class="profile-carousel-dot is-active" aria-label="Go to photo 1"></button>
+              {% for item in gallery_slides %}
+                <button type="button" class="profile-carousel-dot" aria-label="Go to photo {{ forloop.index | plus: 1 }}"></button>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+
+        {% if gallery_slides.size > 0 %}
+          <script>
+            (function () {
+              document.querySelectorAll('[data-profile-carousel]').forEach(function (root) {
+                var imgs = root.querySelectorAll('.profile-carousel-img');
+                if (imgs.length <= 1) return;
+
+                var dots = root.querySelectorAll('.profile-carousel-dot');
+                var caption = root.querySelector('.profile-carousel-caption');
+                var current = 0;
+
+                function show(index) {
+                  current = (index + imgs.length) % imgs.length;
+                  imgs.forEach(function (img, i) { img.classList.toggle('is-active', i === current); });
+                  dots.forEach(function (dot, i) { dot.classList.toggle('is-active', i === current); });
+                  if (caption) caption.textContent = imgs[current].getAttribute('data-caption') || '';
+                }
+
+                var prevBtn = root.querySelector('.profile-carousel-nav.prev');
+                var nextBtn = root.querySelector('.profile-carousel-nav.next');
+                if (prevBtn) prevBtn.addEventListener('click', function () { show(current - 1); });
+                if (nextBtn) nextBtn.addEventListener('click', function () { show(current + 1); });
+                dots.forEach(function (dot, i) { dot.addEventListener('click', function () { show(i); }); });
+
+                var viewport = root.querySelector('.profile-carousel-viewport');
+                var touchStartX = null;
+                viewport.addEventListener('touchstart', function (e) { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+                viewport.addEventListener('touchend', function (e) {
+                  if (touchStartX === null) return;
+                  var dx = e.changedTouches[0].clientX - touchStartX;
+                  if (Math.abs(dx) > 40) show(current + (dx < 0 ? 1 : -1));
+                  touchStartX = null;
+                }, { passive: true });
+              });
+            })();
+          </script>
         {% endif %}
       </div>
     {% endif %}

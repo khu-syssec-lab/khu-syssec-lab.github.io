@@ -4,12 +4,14 @@
 }
 
 .research-overview-head {
-  margin-bottom: 0.85rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .research-overview-head h2 {
   margin: 0;
-  font-size: 1.24rem;
+  font-size: 1.35rem;
   font-weight: 650;
 }
 

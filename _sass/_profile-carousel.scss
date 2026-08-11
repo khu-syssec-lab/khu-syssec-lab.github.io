@@ -1,0 +1,109 @@
+// Homepage profile photo carousel — flips through the profile image
+// plus recent gallery photos in the same slot used by the old static image.
+
+.profile-carousel-viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.profile-carousel-track {
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+
+.profile-carousel--circular .profile-carousel-track {
+  aspect-ratio: 1 / 1;
+}
+
+.profile-carousel-img {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.profile-carousel-img.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.profile-carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.profile-carousel-viewport:hover .profile-carousel-nav,
+.profile-carousel-nav:focus-visible {
+  opacity: 1;
+}
+
+.profile-carousel-nav:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.profile-carousel-nav.prev {
+  left: 6px;
+}
+
+.profile-carousel-nav.next {
+  right: 6px;
+}
+
+.profile-carousel-caption {
+  min-height: 1.2em;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 0.88rem;
+}
+
+.profile-carousel-dots {
+  display: flex;
+  justify-content: center;
+  // 점마다 4px 투명 보더(탭 영역)가 붙으므로 gap 없이도 8px 가 벌어진다.
+  gap: 0;
+  margin-top: 0.4rem;
+}
+
+.profile-carousel-dot {
+  // 보이는 점은 6px 그대로, 투명 보더로 탭 영역만 14px 로 넓힌다.
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  background: var(--global-divider-color);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.profile-carousel-dot.is-active {
+  background: var(--global-theme-color);
+}
+
+// No hover on touch devices — keep controls visible.
+@media (hover: none) {
+  .profile-carousel-nav {
+    opacity: 1;
+  }
+}

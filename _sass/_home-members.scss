@@ -24,10 +24,34 @@
   line-height: 1.25;
 }
 
+// 모집 공고 배너. 색·굵기·패딩은 커밋본(#f1c40f 노랑, 검정 볼드) 그대로 —
+// 인라인 스타일을 클래스로 옮기기만 했다. 연한 톤(#fbeec2)으로 바꿨다가
+// 사용자가 원래 노랑으로 되돌리길 원했다.
+.announcement-banner {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #f1c40f;
+  color: black;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+// Home intro — a touch more breathing room for the welcome text.
+.home-about-article > .clearfix > p {
+  line-height: 1.72;
+  margin-bottom: 0.95rem;
+}
+
 .home-news-heading {
   margin-top: 2.3rem;
-  margin-bottom: 0.35rem;
-  padding-bottom: 0;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--global-divider-color);
   font-size: 1.35rem;
   font-weight: 650;
 }

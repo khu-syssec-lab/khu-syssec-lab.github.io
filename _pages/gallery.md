@@ -3,7 +3,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 nav: true
-nav_rank: 5
+nav_order: 5
 description: Photos from recent KHU SysSec Lab activities
 ---
 

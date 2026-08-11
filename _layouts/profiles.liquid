@@ -34,7 +34,7 @@ layout: default
         {% endif %}
       </div>
     {% endif %} {% endcomment %}
-  <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+  <div class="profile profile-side float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% assign requested_image = page.profile.image | default: 'blank-profile.png' %}
         {% assign requested_path = 'assets/img/' | append: requested_image %}
         {% capture profile_image_exists %}{% file_exists {{ requested_path }} %}{% endcapture %}
@@ -47,31 +47,35 @@ layout: default
           <img class="img-fluid{% assign ext = profile_image_file | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ profile_image_file | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
         {% if page.profile.href %}</a>{% endif %}
         <div class="address">
-          <p>
-            {% comment %} {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
-              <span class="name">{{ page.profile.name }}</span>
-            {% if page.profile.href %}</a>{% endif %} {% endcomment %}
-            {% comment %} {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %} {% endcomment %}
+          {% comment %}
+            연락처는 아이콘만 한 줄로. 라벨을 세로로 쌓으면 사이드바가 길어지고,
+            전부 링크라 버건디 덩어리로 보인다. Team 페이지 카드(`.team-links`)가
+            이미 같은 방식이라 사이트 안에서도 일관된다.
+            아이콘만 남기므로 title/aria-label 로 무엇인지 알 수 있게 한다.
+          {% endcomment %}
+          {% comment %} 이메일과 전화는 실제로 찾아 쓰는 값이라 텍스트로 노출한다. {% endcomment %}
+          <p class="profile-contact">
             {% if page.profile.email %}<a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}
-            {% if page.profile.linkedin %}<br /><a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}/" target="_blank"><i class="fab fa-linkedin"></i> {{ page.profile.linkedin }}</a>{% endif %}
-            {% if page.profile.orcid %}<br /><a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank"><i class="fab fa-orcid"></i> {{ page.profile.orcid }}</a>{% endif %}
-            {% if page.profile.scholar %}<br /><a href="https://scholar.google.com/citations?user={{ page.profile.scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>{% endif %}
-            {% if page.profile.twitter %}<br /><a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.profile.twitter }}</a>{% endif %}
-            {% if page.profile.github %}<br /><a href="https://github.com/{{ page.profile.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.profile.github }}</a>{% endif %}
-            {% comment %} {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.profile.website }}</a>{% endif %}
-            {% comment %} {% if page.profile.cv %}<br /><a href="{{ page.profile.cv | relative_url }}" class="btn btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>{% endif %} {% endcomment %}
-            {% comment %} {% if page.profile.cv %}<br /> <a href="{{ page.profile.cv | relative_url }}" class="btn btn-sm btn-outline-secondary" target="_blank"><i class="fas fa-file-pdf"></i> CV</a> {% endif %} {% endcomment %} {% endcomment %}
-            {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> web page</a>{% endif %}
-            {% if page.profile.cv %}<br /><a href="{{ page.profile.cv | relative_url }}" target="_blank"><i class="fas fa-file-pdf"></i> CV</a>{% endif %}
-            
+          </p>
+          <p class="profile-icons">
+            {% if page.profile.linkedin %}<a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}/" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+            {% if page.profile.orcid %}<a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank" title="ORCID" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
+            {% if page.profile.scholar %}<a href="https://scholar.google.com/citations?user={{ page.profile.scholar }}" target="_blank" title="Google Scholar" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>{% endif %}
+            {% if page.profile.twitter %}<a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+            {% if page.profile.github %}<a href="https://github.com/{{ page.profile.github }}" target="_blank" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+            {% if page.profile.website %}<a href="{{ page.profile.website }}" target="_blank" title="Website" aria-label="Website"><i class="fas fa-globe"></i></a>{% endif %}
+            {% if page.profile.cv %}<a href="{{ page.profile.cv | relative_url }}" target="_blank" title="CV" aria-label="CV"><i class="fas fa-file-pdf"></i></a>{% endif %}
           </p>
           <p class="post">{{ page.profile.address }}</p>
         </div>
       </div>
       {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix profile-body">
+      {{ content }}
+      {% include member_sections.liquid %}
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

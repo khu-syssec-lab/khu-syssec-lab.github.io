@@ -27,7 +27,7 @@ profile:
 
 **Master's student** (Mar. 2026 ~) in the [Kyung Hee University](https://csec.khu.ac.kr/)
 
-**Bachelor's student** (Mar. 2020 – Feb.2025), [Department of Automobile and IT Convergence, Kookmin University.](https://auto.kookmin.ac.kr/major/automobile_convergence/ac_info) Graduated summa cum laude
+**Bachelor's student** (Mar. 2020 – Feb.2025), [Department of Automobile and IT Convergence, Kookmin University.](https://auto.kookmin.ac.kr/major/automobile_convergence/ac_info) Graduated summa cum laude
 
 ## Activities
 
