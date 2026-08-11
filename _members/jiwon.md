@@ -25,12 +25,12 @@ profile:
   website: https://www.chimita.support/
 ---
 
-I am a **master's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), specializing in convergence security, and I joined KHU-SysSec as a **student researcher** in January 2026. My research focuses on **cellular security**.
+I am a **master's student** in the [Dept. of Computer Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), majoring in convergence security, and I joined KHU-SysSec as a **student researcher** in January 2026. My research focuses on **cellular security**.
 
 ## Education
 
-- **M.S. in Computer Science & Engineering** (Mar. 2026 ~ Present)  
-   Kyung Hee University, *Convergence Security*
+- **M.S. in Computer Engineering (Convergence Security)** (Mar. 2026 ~ Present)  
+   Kyung Hee University
 - **B.S. in Information Security** (Mar. 2022 ~ Feb. 2026)  
    Seoul Women's University
 
@@ -58,9 +58,3 @@ I am a **master's student** in the [Dept. of Computer Science & Engineering](htt
 - **Member, HSPACE Physical Lab** (2023 ~ Present)
 - **Team Leader, SWING Information Security Club** (Mar. 2022 ~ Mar. 2025)  
    Seoul Women's University
-
-## Research
-
-### Copyright
-
-### Academic Presentation Paper
