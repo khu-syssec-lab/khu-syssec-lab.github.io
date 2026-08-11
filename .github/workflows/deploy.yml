@@ -85,7 +85,9 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          if [[ "$REPO_NAME" == *.github.io ]]; then BASEURL=""; else BASEURL="/${REPO_NAME}"; fi
+          bundle exec jekyll build --baseurl "$BASEURL"
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
