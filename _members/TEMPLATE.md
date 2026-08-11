@@ -33,10 +33,6 @@ profile:
 
 I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), and I joined KHU-SysSec as an **undergraduate researcher** in March 2026. My research focuses on **cellular security**.
 
-## Research
-
-- Cellular network security
-
 ## Education
 
 - **B.S. in Computer Science & Engineering** (Mar. 2022 ~ Present)  
@@ -53,3 +49,13 @@ I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](h
 
 - **Member of [Some Club](https://example.com)** (2024 ~ Present)  
    One-line description of what you did
+
+## Research
+
+### Copyright
+
+- 2026: Registered software copyright title
+
+### Academic Presentation Paper
+
+- 2026: Paper title (KIISC CISC-S'26)
