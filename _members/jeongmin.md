@@ -3,13 +3,14 @@ layout: profiles
 inline: false
 group: Master students
 group_rank: 11
+order: 1
 team_frontpage: true
 
 
 title: Jeongmin Choi
-description: Profile of MS Jeongmin Choi, M.S.Candiate at the KHU-SysSec.
-lastname: jeongmin
-publications: 'author^=*jeongmin'
+description: Profile of MS Jeongmin Choi, Student Researcher at the KHU-SysSec.
+lastname: Choi
+publications: 'author^=*Choi'
 
 teaser: >
   I am a M.S. Candidate in Computer Engineering, specializing in Convergence Security at KyungHee University. I'm interested in Cellular Security and practical vulnerabilities within mobile communication systems.
@@ -19,28 +20,20 @@ profile:
   align: right
   image: jeongmin-profile.jpeg
   image_orig: jeongmin-profile-orig.jpeg
-  email: choijeong1615@naver.com
-  linkedin: minnnnnnn
-  cv: jmchoi_cv.pdf
+  email: jm@khu.ac.kr
+  linkedin: minnnnnn
 ---
 
+I am a **master's student** in the [Dept. of Computer Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), majoring in convergence security. My research focuses on **cellular security**, with a particular interest in practical vulnerabilities within mobile communication systems.
 
-**Master's student** (Mar. 2026 ~) in the [Kyung Hee University](https://csec.khu.ac.kr/)
+## Education
 
-**Bachelor's student** (Mar. 2020 – Feb.2025), [Department of Automobile and IT Convergence, Kookmin University.](https://auto.kookmin.ac.kr/major/automobile_convergence/ac_info) Graduated summa cum laude
+- **M.S. in Computer Engineering (Convergence Security)** (Mar. 2026 ~ Present)  
+   Kyung Hee University
+- **B.S. in Automobile and IT Convergence** (Mar. 2020 ~ Feb. 2025)  
+   Kookmin University
 
 ## Activities
 
-- KAIST System Security Lab (July.2025 ~ Sep.2025)
-- KITRI WhiteHat School 3th
-- AUTOCRYPT Co.,Ltd. (Jan.2025 ~ Feb.2025)
-- Tech Staff, AutoHack 2024
-
-## Research
-
-### Copyright
-
-
-### Academic Presentation Paper
-
--  Automated fuzzing framework in real‑vehicle environment (KIISC CISC-W'24)
+- **KAIST System Security Lab** (Jul. 2025 ~ Sep. 2025)
+- **KITRI WhiteHat School, 3rd Cohort**

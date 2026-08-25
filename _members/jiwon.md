@@ -3,6 +3,7 @@ layout: profiles
 inline: false
 group: Master students
 group_rank: 12
+order: 2
 team_frontpage: true
 
 title: Jiwon Park
@@ -37,24 +38,15 @@ I am a **master's student** in the [Dept. of Computer Engineering](https://ce.kh
 ## Awards
 
 1. **Encouragement Award**, Financial Security Academy 2025, Financial Security Institute, Nov. 2025
-2. **Grand Prize**, Personal Information Protection PBL, Personal Information Protection Research Center, Seoul Women's University, 2024
-3. **Grand Prize**, Capstone PBL Team Project, Seoul Women's University, 2024
-4. **Idea Award**, Shinhan AI Ideathon, Shinhan Bank, 2024
-5. **Grand Prize**, Cyber Security Hackathon, Korea Internet & Security Agency (KISA), 2024
-6. **1st Place**, SWING CTF, Seoul Women's University, 2023
-7. **Best Activity Award**, Personal Information Protection Academic Club, Seoul Women's University, 2023
-8. **Excellence Award**, Personal Information Protection Contest, Seoul Women's University, 2023
-9. **Excellence Award**, SW Education Donation Corps, Code Club Korea, 2022
-10. **Excellence Award**, ICT Volunteer Corps, National Information Society Agency (NIA), 2022
-11. **Outstanding Graduate**, Information Security Education Institute for Gifted, Seoul Women's University, 2020
-12. **Excellence Award**, White Hat Hacker Competition, Hyundai AutoEver, 2019
+2. **Idea Award**, Shinhan AI Ideathon, Shinhan Bank, 2024
+3. **Grand Prize**, Cyber Security Hackathon, Korea Internet & Security Agency (KISA), 2024
+4. **Excellence Award**, SW Education Donation Corps, Code Club Korea, 2022
+5. **Excellence Award**, ICT Volunteer Corps, National Information Society Agency (NIA), 2022
+6. **Excellence Award**, White Hat Hacker Competition, Hyundai AutoEver, 2019
 
 ## Activities
 
-- **Financial Security Academy, 3rd Cohort** (2025)  
+- **[Financial Security Academy, 3rd Cohort](https://intn.co.kr/news/articleView.html?idxno=2044582)** (2025)  
    Financial Security Institute
-- **Member of [HackyBoiz](https://hackyboiz.github.io/)** (2024 ~ Present)  
-   Security research team — authored security newsletter posts on the team blog
-- **Member, HSPACE Physical Lab** (2023 ~ Present)
-- **Team Leader, SWING Information Security Club** (Mar. 2022 ~ Mar. 2025)  
-   Seoul Women's University
+- **Member of [SWING Information Security Club](https://swuswing.com/)** (Mar. 2022 ~ Mar. 2025)  
+   Seoul Women's University — Team Leader in 2024

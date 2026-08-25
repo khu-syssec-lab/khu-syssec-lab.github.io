@@ -27,11 +27,5 @@ profile:
 - **Bachelor's student** (Jan. 2026 – Present), [Computer Science, Kyung Hee University.](https://ce.khu.ac.kr/ce/user/main/view.do)
   
 
-## Research
-
-### Copyright
-
-### Academic Presentation Paper
-
 ## Activities
 - [GDGoC KHU TechOps](https://www.kolleges.net/ko/gdgockhu/achievement/23664?markAsReceived=true) (Sep. 2025 ~ Feb. 2026)

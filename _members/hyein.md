@@ -33,12 +33,6 @@ profile:
 
   
 
-## Research
-
-### Copyright
-
-### Academic Presentation Paper
-
 ## Activities
 - **Second Prize**, Gangneung City Data Analysis Contest(Nov. 2024)
 - KB IT's Your Life 6th (Mar. 2025 - Aug. 2025)

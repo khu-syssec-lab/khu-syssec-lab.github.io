@@ -28,8 +28,10 @@ profile:
   # address: >
 
 ---
-(2021~) Kyungh Hee University
 
-<!-- 
-I am a M.S. Candidate in Computer Engineering, specializing in Convergence Security at KyungHee University. I joined the KHU-SysSec Lab lead by Prof. CheolJun Park as a Student Researcher in December 2024.
-My Masters research focuses on Space/Satellite Security with a particular interest in Satellite communications and Satellite internet.  -->
+I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr). My research focuses on **cellular security**.
+
+## Education
+
+- **B.S. in Computer Science & Engineering** (Mar. 2021 ~ Present)  
+   Kyung Hee University
