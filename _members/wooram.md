@@ -11,7 +11,7 @@ description: Profile of MS WooRam Park, Student Researcher at the KHU-SysSec.
 lastname: wooram
 publications: 'author^=*wooram'
 teaser: >
-  I'm studing cellular security in Kyungh Hee University.
+  I'm studying cellular security at Kyung Hee University.
 
 profile:
   name: 박우람

@@ -12,7 +12,7 @@ lastname: Lee
 publications: 'author^=*Lee'
 
 teaser: >
-  I'm studing cellular security in Kyungh Hee University.
+  I'm studying cellular security at Kyung Hee University.
 
 
 profile:

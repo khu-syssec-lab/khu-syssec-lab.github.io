@@ -1,4 +1,6 @@
 ---
+published: false
+
 layout: page
 title: Gallery
 permalink: /gallery/

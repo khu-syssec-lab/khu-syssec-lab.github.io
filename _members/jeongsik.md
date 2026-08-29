@@ -27,7 +27,7 @@ profile:
 ---
 
 
-**Bachlor's student** (Mar. 2023 ~) in the [Kyung Hee University](https://khu.ac.kr)
+**Bachelor's student** (Mar. 2023 ~) in the [Kyung Hee University](https://khu.ac.kr)
 
 - I study [Computer Science and Engineering](https://ce.khu.ac.kr) as my primary major, with additional majors in [Applied Mathematics](http://math.khu.ac.kr) and [Korean Language](https://korean.khu.ac.kr), and a minor in [Smart Farm Science](https://smartfarmsci.khu.ac.kr).
 - I seek to explore how technology, mathematics, and language can harmonize in interdisciplinary innovation.

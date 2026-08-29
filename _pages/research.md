@@ -71,14 +71,14 @@ Our goal is to uncover both implementation-level bugs and standard-level design 
 - Security analysis of ORAN interfaces (e.g., E2, A1, O1) and components (DU/CU)  
 
 <!-- <figure>
-  <img src="/assets/img/ue-testing.png" alt="UE testing diagram" style="max-width: 100%;" />
+  <img src="{{ '/assets/img/ue-testing.png' | relative_url }}" alt="UE testing diagram" style="max-width: 100%;" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Security issues arise from both standard and implementation flaws.
   </figcaption>
 </figure> -->
 
 <figure style="text-align: center;">
-  <img src="/assets/img/ue-testing.png" alt="UE testing diagram"
+  <img src="{{ '/assets/img/ue-testing.png' | relative_url }}" alt="UE testing diagram"
        style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: white; padding: 4px;" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Security issues arise from both standard and implementation flaws.
@@ -101,14 +101,14 @@ We analyze how key 5G NTN procedures, such as access and mobility management, be
   
 
 <!-- <figure>
-  <img src="/assets/img/satellite-security.png" alt="Satellite security threats diagram" style="max-width: 100%;" />
+  <img src="{{ '/assets/img/satellite-security.png' | relative_url }}" alt="Satellite security threats diagram" style="max-width: 100%;" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attack surfaces in LEO satellite systems and RF communication links.
   </figcaption>
 </figure> -->
 
 <figure style="text-align: center;">
-  <img src="/assets/img/satellite-security.png" alt="Satellite security threats diagram"
+  <img src="{{ '/assets/img/satellite-security.png' | relative_url }}" alt="Satellite security threats diagram"
        style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: white; padding: 4px;" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attack surfaces in LEO satellite systems and RF communication links.
@@ -132,14 +132,14 @@ Field experiments and testbed deployments are an essential part of this work, us
 - Physical-layer and signaling-layer anomaly detection
 
 <!-- <figure style="text-align: center;">
-  <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types" style="max-width: 80%;" />
+  <img src="{{ '/assets/img/malicious-attackers.png' | relative_url }}" alt="Cellular attacker types" style="max-width: 80%;" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attacker models targeting cellular networks.
   </figcaption>
 </figure> -->
 
 <!-- <figure style="text-align: center;">
-  <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types"
+  <img src="{{ '/assets/img/malicious-attackers.png' | relative_url }}" alt="Cellular attacker types"
        style="max-width: 80%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     Overview of attacker models targeting cellular networks.
@@ -148,7 +148,7 @@ Field experiments and testbed deployments are an essential part of this work, us
 
 <figure style="text-align: center;">
   <div style="display: inline-block; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 4px; background-color: white;">
-    <img src="/assets/img/malicious-attackers.png" alt="Cellular attacker types"
+    <img src="{{ '/assets/img/malicious-attackers.png' | relative_url }}" alt="Cellular attacker types"
          style="max-width: 80%;" />
   </div>
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">

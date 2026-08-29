@@ -24,4 +24,4 @@ profile:
   email: minjubyeon@khu.ac.kr
 ---
 
-**Bachlor's student** (2023 ~) in the [Dept. of Computer Science and Engineering](https://ce.khu.ac.kr)
+**Bachelor's student** (2023 ~) in the [Dept. of Computer Science and Engineering](https://ce.khu.ac.kr)

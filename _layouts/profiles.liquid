@@ -47,13 +47,6 @@ layout: default
           <img class="img-fluid{% assign ext = profile_image_file | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ profile_image_file | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
         {% if page.profile.href %}</a>{% endif %}
         <div class="address">
-          {% comment %}
-            연락처는 아이콘만 한 줄로. 라벨을 세로로 쌓으면 사이드바가 길어지고,
-            전부 링크라 버건디 덩어리로 보인다. Team 페이지 카드(`.team-links`)가
-            이미 같은 방식이라 사이트 안에서도 일관된다.
-            아이콘만 남기므로 title/aria-label 로 무엇인지 알 수 있게 한다.
-          {% endcomment %}
-          {% comment %} 이메일과 전화는 실제로 찾아 쓰는 값이라 텍스트로 노출한다. {% endcomment %}
           <p class="profile-contact">
             {% if page.profile.email %}<a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}

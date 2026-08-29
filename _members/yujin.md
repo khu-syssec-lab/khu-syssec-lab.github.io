@@ -24,4 +24,4 @@ profile:
 ---
 
 
-**Bachlor's student** (2022 ~) in the [Dept. of Computer Science and Engineering](https://ce.khu.ac.kr) @ [Kyung Hee University](https://khu.ac.kr)
+**Bachelor's student** (2022 ~) in the [Dept. of Computer Science and Engineering](https://ce.khu.ac.kr) @ [Kyung Hee University](https://khu.ac.kr)

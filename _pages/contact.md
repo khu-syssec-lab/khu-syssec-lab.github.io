@@ -16,7 +16,7 @@ nav_rank: 11
 
 
 <figure style="text-align: center;">
-  <img src="/assets/img/lab-recruitment-poster.png" alt="Lab Recruitment Poster" style="max-width: 80%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+  <img src="{{ '/assets/img/lab-recruitment-poster.png' | relative_url }}" alt="Lab Recruitment Poster" style="max-width: 80%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   <figcaption style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light); margin-top: 0.5em;">
     
   </figcaption>
