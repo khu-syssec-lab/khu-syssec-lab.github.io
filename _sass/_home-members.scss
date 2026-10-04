@@ -102,6 +102,22 @@
   font-weight: 600;
 }
 
+.home-news-section .news-more {
+  margin-top: 0.65rem;
+  text-align: right;
+  font-size: 0.84rem;
+}
+
+.home-news-section .news-more a {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-news-section .news-more a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 576px) {
   .home-about-article > .clearfix {
     clear: both;
@@ -130,5 +146,9 @@
 
   .home-news-section .news table.table td {
     padding-top: 0.05rem !important;
+  }
+
+  .home-news-section .news-more {
+    text-align: left;
   }
 }

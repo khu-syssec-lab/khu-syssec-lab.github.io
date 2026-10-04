@@ -35,7 +35,7 @@ If you are interested, [contact us](mailto:cheoljunp@khu.ac.kr) or see the detai
 
 <!-- 🔶 연구실 모집 공고 배너 시작 -->
 <div class="announcement-banner">
-  🚀 <strong>2026년 가을/2027년 봄학기 석사과정 신입생 및 2026년 학부 연구생 모집 중!</strong>&nbsp;
+  🚀 <strong>2027년 봄학기 석사과정 신입생 및 2026년 겨울학기 학부연구생 모집 중!</strong>&nbsp;
   <a href="{{ '/contact' | relative_url }}">지원 안내 보기 →</a>
 </div>
 <!-- 🔶 연구실 모집 공고 배너 끝 -->

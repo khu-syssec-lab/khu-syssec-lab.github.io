@@ -2,13 +2,13 @@
 layout: profiles
 inline: false
 
-group: Undergraduate students
-order: 5
-group_rank: 105
-team_frontpage: true
+group: Alumni
+order: 4
+group_rank: 900
+team_frontpage: false
 
 title: Wonyoung Park
-description: Profile of Wonyoung Park, Student Researcher at the KHU-SysSec.
+description: Profile of Wonyoung Park, Former Undergraduate Researcher at KHU-SysSec.
 lastname: Park
 publications: 'author^=*Park'
 
@@ -16,7 +16,8 @@ profile:
   name: 박원영
   align: right
   image: wonyoung-profile.jpg
-  role: Student Researcher
+  role: Alumni
+  alumni_note: Former Undergraduate Researcher
   email: park102001@khu.ac.kr
   github: park102001
   # linkedin: username
@@ -25,7 +26,7 @@ profile:
   # website: https://example.com
 ---
 
-I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr), and I joined KHU-SysSec as an **undergraduate researcher** in March 2026. My research focuses on **cellular security**.
+I am a **bachelor's student** in the [Dept. of Computer Science & Engineering](https://ce.khu.ac.kr) at [Kyung Hee University](https://khu.ac.kr). I was an **undergraduate researcher** at KHU-SysSec, focusing on **cellular security**.
 
 
 ## Education
